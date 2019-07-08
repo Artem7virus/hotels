@@ -1,0 +1,54 @@
+.dhtmlwindow{
+	position: absolute;
+	border: 2px solid #489e39;
+	visibility: hidden;
+	background-color: #9ec974;
+}
+
+.drag-handle{
+	padding: 1px;
+	text-indent: 3px;
+	font-size: 14px;
+	background-color: #489e39;
+	color: white;
+	cursor: move;
+	overflow: hidden;
+	width: auto;
+	filter:progid:DXImageTransform.Microsoft.alpha(opacity=100);
+	-moz-opacity: 1;
+	opacity: 1;
+}
+
+.drag-handle .drag-controls{ 
+	position: absolute;
+	right: 1px;
+	top: 2px;
+	cursor: hand;
+	cursor: pointer;
+}
+
+* html .drag-handle{ 
+	width: 100%;
+}
+
+.drag-contentarea{ 
+	border-top: 1px solid #489e39;
+	background-color: #fff;
+	color: black;
+	height: 150px;
+	padding: 2px;
+	overflow: auto;
+}
+
+.drag-statusarea{ 
+	border-top: 1px solid gray;
+	background-color: #489e39;
+	height: 13px;
+}
+
+.drag-resizearea{ 
+	float: right;
+	width: 13px;
+	height: 13px;
+	font-size: 0;
+}
